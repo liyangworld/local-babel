@@ -1,0 +1,20 @@
+{
+  "name": "local-babel",
+  "version": "1.0.0",
+  "description": "本地 es6 转译",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0"
+  },
+  "scripts": {
+    "build": "babel es6 -d es5"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "liyang",
+  "license": "MIT"
+}
